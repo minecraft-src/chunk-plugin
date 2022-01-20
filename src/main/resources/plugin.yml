@@ -1,0 +1,10 @@
+name: Claim-plugin
+version: '${version}'
+main: dev.lounge-lizard.chunk-plugin
+api-version: 1.18
+softdepend: [ dynmap ]
+description: A plugin for claiming chunks
+commands:
+  chunk:
+    aliases:
+      - chunkd
